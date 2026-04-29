@@ -1,0 +1,48 @@
+{
+  "name": "Defense Mission Monitoring",
+  "short_name": "Defense Mission",
+  "description": "Military mapping application with MGRS grid overlay and APP6a symbology",
+  "start_url": "/mapbox-gl-styles/",
+  "scope": "/mapbox-gl-styles/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2c3e50",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232c3e50' width='192' height='192'/><text x='96' y='120' font-size='80' fill='white' text-anchor='middle' font-weight='bold'>DM</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%232c3e50' width='512' height='512'/><text x='256' y='340' font-size='220' fill='white' text-anchor='middle' font-weight='bold'>DM</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["military", "utilities"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%2350B8D7' width='540' height='720'/><text x='270' y='360' font-size='60' fill='white' text-anchor='middle'>Defense Mission</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "MGRS Grid",
+      "short_name": "MGRS",
+      "description": "Open MGRS grid overlay",
+      "url": "/mapbox-gl-styles/?grid=mgrs",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%233498db' width='96' height='96'/><text x='48' y='60' font-size='40' fill='white' text-anchor='middle' font-weight='bold'>M</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
